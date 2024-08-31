@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetHaven", "PetHaven\PetHaven.csproj", "{9EC77D8B-CC4B-435C-B041-514D5EC5FB18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetHavenTest", "PetHavenTest\PetHavenTest.csproj", "{7204BE71-6CB7-4C6C-9C81-71E52C008B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC77D8B-CC4B-435C-B041-514D5EC5FB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC77D8B-CC4B-435C-B041-514D5EC5FB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC77D8B-CC4B-435C-B041-514D5EC5FB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC77D8B-CC4B-435C-B041-514D5EC5FB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7204BE71-6CB7-4C6C-9C81-71E52C008B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7204BE71-6CB7-4C6C-9C81-71E52C008B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7204BE71-6CB7-4C6C-9C81-71E52C008B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7204BE71-6CB7-4C6C-9C81-71E52C008B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CFA3DDB-595D-4A98-B7C2-2A9333E46603}
+	EndGlobalSection
+EndGlobal
