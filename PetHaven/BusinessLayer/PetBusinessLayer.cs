@@ -45,11 +45,11 @@ namespace PetHaven.BusinessLayer
             return pets != null ? pets : new List<BasePet>();
         }
 
-        public BasePet SaveDog(Dog aDog)
+        public BasePet SavePet(BasePet aPet)
         {
-            if (Validator.IsValidForSave(aDog))
+            if (Validator.IsValidForSave(aPet))
             {
-                return Data.SavePet(aDog);
+                return Data.SavePet(aPet);
             }
             else
             {

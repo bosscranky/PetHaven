@@ -1,3 +1,4 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using PetHaven.BusinessLayer;
 using PetHaven.Domain;
@@ -67,6 +68,27 @@ namespace PetHavenTest
             Assert.IsNotNull(response);
             Assert.IsTrue(response.Count == 3);
 
+        }
+
+        [TestMethod]
+        public void TestSavePet()
+        {
+            Dog goodDoggie = new Dog() { Name = "Spot", Neutered = true };
+
+            var newDoggie = BL.SavePet(goodDoggie);
+
+            Assert.IsNotNull(newDoggie);
+            Assert.IsTrue(newDoggie.Id > 0);
+        }
+
+        [TestMethod]
+        public void TestInvalidSave()
+        {
+            Lizard liz = new Lizard() { Name = "", Neutered = true};
+
+            var newLizard = BL.SavePet(liz);
+
+            Assert.IsNull(newLizard);
         }
     }
 }
